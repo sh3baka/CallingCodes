@@ -56,9 +56,9 @@ public class WikiTable {
             if (string != null && !string.isEmpty()) {
                 String[] tempArr = string.split(":", 0);
                 if (tempArr.length == 1) {
-                    map.put(tempArr[0], "Dominican Republic");
+                    map.put(tempArr[0].replace(" ", ""), "Dominican Republic");
                 } else {
-                    map.put(tempArr[0], removeLastComma(tempArr[1]));
+                    map.put(tempArr[0].replace(" ", ""), removeLastComma(tempArr[1]));
                 }
             }
         }

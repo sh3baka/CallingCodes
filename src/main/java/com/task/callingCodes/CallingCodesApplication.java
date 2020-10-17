@@ -8,7 +8,6 @@ public class CallingCodesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CallingCodesApplication.class, args);
-
 	}
 
 }
