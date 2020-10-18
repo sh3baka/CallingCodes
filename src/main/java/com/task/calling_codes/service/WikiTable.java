@@ -1,4 +1,4 @@
-package com.task.callingCodes.service;
+package com.task.calling_codes.service;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class WikiTable {
 
-    private final String URL = "https://en.wikipedia.org/wiki/List_of_country_calling_codes";
+    private static final String URL = "https://en.wikipedia.org/wiki/List_of_country_calling_codes";
     private final Logger logger = LoggerFactory.getLogger(WikiTable.class);
     private Document document = null;
 

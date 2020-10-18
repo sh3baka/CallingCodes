@@ -1,4 +1,4 @@
-package com.task.callingCodes.controllers;
+package com.task.calling_codes.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

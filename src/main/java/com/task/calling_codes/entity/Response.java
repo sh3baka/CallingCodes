@@ -1,4 +1,4 @@
-package com.task.callingCodes.entity;
+package com.task.calling_codes.entity;
 
 import java.util.List;
 

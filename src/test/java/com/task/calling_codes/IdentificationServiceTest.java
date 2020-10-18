@@ -1,10 +1,10 @@
-package com.task.callingCodes;
+package com.task.calling_codes;
 
-import com.task.callingCodes.entity.Error;
-import com.task.callingCodes.entity.Phone;
-import com.task.callingCodes.entity.Response;
-import com.task.callingCodes.service.IdentificationService;
-import com.task.callingCodes.service.ValidationService;
+import com.task.calling_codes.entity.Error;
+import com.task.calling_codes.entity.Phone;
+import com.task.calling_codes.entity.Response;
+import com.task.calling_codes.service.IdentificationService;
+import com.task.calling_codes.service.ValidationService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,6 @@
-package com.task.callingCodes;
+package com.task.calling_codes;
 
-import com.task.callingCodes.service.WikiTable;
+import com.task.calling_codes.service.WikiTable;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

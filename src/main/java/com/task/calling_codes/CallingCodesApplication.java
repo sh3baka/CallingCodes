@@ -1,4 +1,4 @@
-package com.task.callingCodes;
+package com.task.calling_codes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

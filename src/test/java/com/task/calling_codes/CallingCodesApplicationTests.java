@@ -1,4 +1,4 @@
-package com.task.callingCodes;
+package com.task.calling_codes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

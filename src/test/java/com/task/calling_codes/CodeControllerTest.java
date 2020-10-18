@@ -1,8 +1,8 @@
-package com.task.callingCodes;
+package com.task.calling_codes;
 
-import com.task.callingCodes.entity.Phone;
-import com.task.callingCodes.service.IdentificationService;
-import com.task.callingCodes.service.ValidationService;
+import com.task.calling_codes.entity.Phone;
+import com.task.calling_codes.service.IdentificationService;
+import com.task.calling_codes.service.ValidationService;
 import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;

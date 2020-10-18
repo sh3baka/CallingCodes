@@ -1,7 +1,7 @@
-package com.task.callingCodes.service;
+package com.task.calling_codes.service;
 
-import com.task.callingCodes.entity.Error;
-import com.task.callingCodes.entity.Phone;
+import com.task.calling_codes.entity.Error;
+import com.task.calling_codes.entity.Phone;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

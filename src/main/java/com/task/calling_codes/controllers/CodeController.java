@@ -1,7 +1,8 @@
-package com.task.callingCodes.controllers;
+package com.task.calling_codes.controllers;
 
-import com.task.callingCodes.entity.Phone;
-import com.task.callingCodes.service.IdentificationService;
+import com.task.calling_codes.entity.Phone;
+import com.task.calling_codes.entity.Response;
+import com.task.calling_codes.service.IdentificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +22,7 @@ public class CodeController {
      * @return Response object with data to display on front end
      */
     @PostMapping("/get-country")
-    public ResponseEntity findCountry(@RequestBody Phone phone) {
-        return new ResponseEntity(identificationService.identifyCountry(phone), HttpStatus.OK);
+    public ResponseEntity<Response> findCountry(@RequestBody Phone phone) {
+        return new ResponseEntity<>(identificationService.identifyCountry(phone), HttpStatus.OK);
     }
 }

@@ -1,8 +1,8 @@
-package com.task.callingCodes.service;
+package com.task.calling_codes.service;
 
-import com.task.callingCodes.entity.Error;
-import com.task.callingCodes.entity.Phone;
-import com.task.callingCodes.entity.Response;
+import com.task.calling_codes.entity.Error;
+import com.task.calling_codes.entity.Phone;
+import com.task.calling_codes.entity.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
