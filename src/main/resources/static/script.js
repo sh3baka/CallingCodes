@@ -9,6 +9,12 @@ $("#btn").click(function () {
         data: JSON.stringify(jsonObj),
         success: function(data) {
               $("#country").text(data.country);
+
+              if (data.errorList != null){
+                $("#error").text(data.errorList[0].errorMsg);
+              } else {
+                $("#error").text("");
+              }
         }
     })
 });

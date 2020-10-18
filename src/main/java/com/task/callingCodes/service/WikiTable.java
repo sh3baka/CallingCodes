@@ -1,4 +1,4 @@
-package com.task.callingCodes;
+package com.task.callingCodes.service;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -67,6 +67,7 @@ public class WikiTable {
 
     /**
      * Helper method to remove "," sign at the end of string
+     *
      * @param str - Input String
      * @return String without "," sign in the end
      */
@@ -79,6 +80,7 @@ public class WikiTable {
 
     /**
      * Getter of mapOfCodes
+     *
      * @return mapOfCodes
      */
     public Map<String, String> getMapOfCodes() {

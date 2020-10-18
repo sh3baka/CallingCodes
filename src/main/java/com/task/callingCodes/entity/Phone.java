@@ -1,42 +1,51 @@
-package com.task.callingCodes;
+package com.task.callingCodes.entity;
 
-import java.util.List;
 
-public class Response {
+public class Phone {
     private String country;
     private String telephone;
-    private List<Error> errorList;
 
-    public Response(String country, String telephone, List<Error> errorList) {
+    public Phone(String country, String telephone) {
         this.country = country;
         this.telephone = telephone;
-        this.errorList = errorList;
     }
 
-    public Response() {
+    public Phone() {
     }
 
+    /**
+     * Getter for country
+     *
+     * @return country
+     */
     public String getCountry() {
         return country;
     }
 
+    /**
+     * Setter for country
+     *
+     * @param country
+     */
     public void setCountry(String country) {
         this.country = country;
     }
 
+    /**
+     * Getter for telephone
+     *
+     * @return telephone
+     */
     public String getTelephone() {
         return telephone;
     }
 
+    /**
+     * Setter for telephone
+     *
+     * @param telephone
+     */
     public void setTelephone(String telephone) {
         this.telephone = telephone;
-    }
-
-    public List<Error> getErrorList() {
-        return errorList;
-    }
-
-    public void setErrorList(List<Error> errorList) {
-        this.errorList = errorList;
     }
 }

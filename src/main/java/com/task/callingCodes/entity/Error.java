@@ -1,4 +1,4 @@
-package com.task.callingCodes;
+package com.task.callingCodes.entity;
 
 public class Error {
     private String errorMsg;
@@ -10,11 +10,12 @@ public class Error {
     public Error() {
     }
 
+    /**
+     * Getter for errorMsg
+     *
+     * @return errorMsg
+     */
     public String getErrorMsg() {
         return errorMsg;
-    }
-
-    public void setErrorMsg(String errorMsg) {
-        this.errorMsg = errorMsg;
     }
 }

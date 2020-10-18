@@ -1,15 +1,23 @@
 package com.task.callingCodes;
 
+import com.task.callingCodes.service.WikiTable;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringRunner.class)
 public class WikiTableTest {
 
-    private final WikiTable wikiTable = new WikiTable();
+    private WikiTable wikiTable;
+
+    @Before
+    public void setUp() {
+        wikiTable = new WikiTable();
+    }
 
     @Test
     public void testWikitableParsed() {
